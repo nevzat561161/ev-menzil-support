@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Menzil — Gizlilik Politikası</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    color: #1a1a1a;
+    line-height: 1.6;
+    background: #fff;
+  }
+  header {
+    background: linear-gradient(135deg, #0C447C, #185FA5, #1D74C6);
+    color: #fff;
+    padding: 40px 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+  }
+  header h1 { margin: 0 0 8px; font-size: 28px; }
+  header p { margin: 0; opacity: 0.9; }
+  h2 { color: #0C447C; font-size: 20px; margin-top: 36px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; font-size: 15px; vertical-align: top; }
+  th { color: #5F5E5A; font-size: 13px; text-transform: uppercase; }
+  a { color: #185FA5; }
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 13px;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔒 Gizlilik Politikası</h1>
+  <p>EV Menzil uygulaması — Son güncelleme: Ekim 2026</p>
+</header>
+
+<p>Bu sayfa, EV Menzil uygulamasının hangi verileri neden kullandığını açıklar. Uygulamanın kendi sunucusu yoktur; verilerin büyük çoğunluğu yalnızca kendi cihazında saklanır.</p>
+
+<h2>Topladığımız / Kullandığımız Veriler</h2>
+<table>
+  <tr><th>Veri</th><th>Ne için kullanılır</th><th>Nerede saklanır</th></tr>
+  <tr>
+    <td>Konum</td>
+    <td>Konumuna en yakın ve en ucuz şarj istasyonlarını bulmak, rota planlarken gerçek mesafeyi hesaplamak.</td>
+    <td>Sadece anlık kullanılır, cihazından ayrılmaz veya kaydedilmez.</td>
+  </tr>
+  <tr>
+    <td>Takvim</td>
+    <td>Kendi onayınla, bakım hatırlatıcılarını telefonunun takvimine eklemek.</td>
+    <td>Telefonunun kendi takvim uygulamasında (Apple Takvim / Google Takvim).</td>
+  </tr>
+  <tr>
+    <td>Fotoğraflar</td>
+    <td>Aracının fotoğrafını seçip profiline eklemek.</td>
+    <td>Sadece cihazında, uygulamanın kendi klasöründe.</td>
+  </tr>
+  <tr>
+    <td>Araç seçimi, şarj kayıtları, batarya sağlığı, bakım hatırlatıcıları</td>
+    <td>Uygulama içindeki takip özelliklerini çalıştırmak.</td>
+    <td>Sadece cihazında (AsyncStorage), hiçbir sunucuya gönderilmez.</td>
+  </tr>
+</table>
+
+<h2>Üçüncü Taraf Servisler</h2>
+<p>Uygulama, aşağıdaki dış servislerden veri çeker (adres arama, şarj istasyonu konumu, rota hesaplama). Bu servislere gönderilen bilgi, o an yaptığın işlemle sınırlıdır (örn. aradığın adres veya konumun):</p>
+<ul>
+  <li>OpenStreetMap Nominatim (adres arama)</li>
+  <li>OSRM (rota/mesafe hesaplama)</li>
+  <li>Open Charge Map ve OpenStreetMap Overpass API (şarj istasyonu verisi)</li>
+  <li>Google AdMob (reklam gösterimi — aşağıda ayrıca anlatılmıştır)</li>
+</ul>
+<p>Bu servislerin kendi gizlilik politikaları geçerlidir; EV Menzil bu servislere kimlik bilgisi göndermez.</p>
+
+<h2>Reklamlar</h2>
+<p>Uygulamanın ücretsiz sürümünde Google AdMob aracılığıyla reklam gösterilir. Reklamları sunmak ve ölçmek için Google; cihazının reklam kimliğini (IDFA, yalnızca izin verirsen), yaklaşık konumunu, cihaz ve uygulama kullanım bilgilerini toplayabilir. Uygulama ilk açıldığında iOS, seni takip edilip edilmeyeceğine dair bir izin penceresiyle karşılar; izin vermezsen kişiselleştirilmemiş reklamlar gösterilir. AB/Birleşik Krallık gibi bölgelerde ayrıca Google'ın onay formu çıkar. İzni dilediğin zaman iPhone'unda Ayarlar &gt; Gizlilik ve Güvenlik &gt; İzleme bölümünden değiştirebilirsin. Google'ın bu verileri nasıl kullandığı için: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+<h2>Veri Paylaşımı</h2>
+<p>Verilerini hiçbir üçüncü tarafa satmıyoruz. Reklam gösterimi için yukarıda anlatılan Google AdMob dışında, kişisel verini reklam amacıyla başka biriyle paylaşmıyoruz. Uygulamanın kendi sunucusu ve kullanıcı hesap sistemi yoktur.</p>
+
+<h2>Verilerini Silmek</h2>
+<p>Uygulamayı telefonundan kaldırdığında (sil), cihazında tutulan tüm veriler (araç seçimi, şarj kayıtları, fotoğraf vb.) birlikte silinir.</p>
+
+<h2>İletişim</h2>
+<p>Sorularınız için: <a href="mailto:nevzatyusan@gmail.com">nevzatyusan@gmail.com</a></p>
+
+<footer>
+  © 2026 Nevzat Yuşan. Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
