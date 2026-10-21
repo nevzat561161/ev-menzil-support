@@ -41,10 +41,10 @@
 
 <header>
   <h1>🔒 Gizlilik Politikası</h1>
-  <p>EV Menzil uygulaması — Son güncelleme: Ekim 2026</p>
+  <p>EV Menzil uygulaması — Son güncelleme: 21 Ekim 2026</p>
 </header>
 
-<p>Bu sayfa, EV Menzil uygulamasının hangi verileri neden kullandığını açıklar. Uygulamanın kendi sunucusu yoktur; verilerin büyük çoğunluğu yalnızca kendi cihazında saklanır.</p>
+<p>Bu sayfa, EV Menzil uygulamasının hangi verileri neden kullandığını açıklar. Verilerin büyük çoğunluğu yalnızca kendi cihazında saklanır. Yalnızca isteğe bağlı Topluluk Forumu özelliği için bir sunucu kullanılır (aşağıda “Topluluk Forumu” bölümünde anlatılmıştır).</p>
 
 <h2>Topladığımız / Kullandığımız Veriler</h2>
 <table>
@@ -69,6 +69,11 @@
     <td>Uygulama içindeki takip özelliklerini çalıştırmak.</td>
     <td>Sadece cihazında (AsyncStorage), hiçbir sunucuya gönderilmez.</td>
   </tr>
+  <tr>
+    <td>Forum verileri (yalnızca forumda soru sorar veya cevap yazarsan): Apple tarafından verilen anonim kimlik numarası, seçtiğin takma ad, yazdığın soru ve cevaplar, şikayet ve engelleme kayıtların</td>
+    <td>Forumu çalıştırmak, uygunsuz içerikleri denetlemek ve kötüye kullanımı önlemek.</td>
+    <td>Hizmet sağlayıcımızın sunucusunda (aşağıya bak). Hesabını silersen kalıcı olarak silinir.</td>
+  </tr>
 </table>
 
 <h2>Üçüncü Taraf Servisler</h2>
@@ -76,19 +81,30 @@
 <ul>
   <li>OpenStreetMap Nominatim (adres arama)</li>
   <li>OSRM (rota/mesafe hesaplama)</li>
-  <li>Open Charge Map ve OpenStreetMap Overpass API (şarj istasyonu verisi)</li>
+  <li>OpenStreetMap Overpass API (şarj istasyonu verisi)</li>
+  <li>Open Charge Map (openchargemap.org) — uygulamayla birlikte gelen şarj istasyonu veri seti CC BY 4.0 lisansıyla kullanılır. Şarj istasyonu verisi: Open Charge Map (openchargemap.org)</li>
+  <li>Apple (“Apple ile giriş”, yalnızca forumda soru sormak veya cevap yazmak istersen)</li>
   <li>Google AdMob (reklam gösterimi — aşağıda ayrıca anlatılmıştır)</li>
 </ul>
 <p>Bu servislerin kendi gizlilik politikaları geçerlidir; EV Menzil bu servislere kimlik bilgisi göndermez.</p>
+
+<h2>Topluluk Forumu</h2>
+<p>Uygulamadaki forumu okumak için giriş gerekmez. Soru sormak veya cevap yazmak için “Apple ile giriş” kullanılır.
+Bu sırada Apple, uygulamaya yalnızca sana özel bir kimlik numarası verir; adını veya e-posta adresini istemiyoruz ve saklamıyoruz.</p>
+<p>Foruma yazdığın sorular, cevaplar, seçtiğin takma ad, şikayet ve engelleme kayıtların, uygulamanın forum hizmeti için kullandığımız sunucuda (barındırma sağlayıcımız aracılığıyla) saklanır.
+Soruların ve cevapların takma adınla diğer kullanıcılara görünür. Takma ad olarak gerçek adını kullanman gerekmez. Bu bilgiler reklam veya izleme amacıyla kullanılmaz ve üçüncü taraflara satılmaz veya devredilmez.</p>
+<p>Oturum bilgin, 90 gün geçerli rastgele bir anahtarla tutulur; bu anahtar sunucuda yalnızca şifrelenmiş (özet) biçimde saklanır.</p>
+<p><strong>Denetim:</strong> Uygunsuz içerikleri her soru ve cevabın yanındaki “⋯” menüsünden şikayet edebilir, kullanıcıları engelleyebilirsin. Şikayetler en geç 24 saat içinde incelenir; kurallara aykırı içerik kaldırılır ve ilgili hesaba işlem yapılabilir. Kullanım koşulları ve topluluk kurallarını forum hesabı ekranında bulabilirsin.</p>
+<p><strong>Silme:</strong> Kendi soru ve cevaplarını dilediğin zaman silebilirsin. Forum Hesap ekranındaki “Hesabımı ve içeriklerimi sil” ile forum hesabını ve tüm içeriklerini kalıcı olarak silebilirsin. İstersen <a href="mailto:nevzatyusan@gmail.com">nevzatyusan@gmail.com</a> adresine yazarak da silme talep edebilirsin.</p>
 
 <h2>Reklamlar</h2>
 <p>Uygulamanın ücretsiz sürümünde Google AdMob aracılığıyla reklam gösterilir. Reklamları sunmak ve ölçmek için Google; cihazının reklam kimliğini (IDFA, yalnızca izin verirsen), yaklaşık konumunu, cihaz ve uygulama kullanım bilgilerini toplayabilir. Uygulama ilk açıldığında iOS, seni takip edilip edilmeyeceğine dair bir izin penceresiyle karşılar; izin vermezsen kişiselleştirilmemiş reklamlar gösterilir. AB/Birleşik Krallık gibi bölgelerde ayrıca Google'ın onay formu çıkar. İzni dilediğin zaman iPhone'unda Ayarlar &gt; Gizlilik ve Güvenlik &gt; İzleme bölümünden değiştirebilirsin. Google'ın bu verileri nasıl kullandığı için: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
 
 <h2>Veri Paylaşımı</h2>
-<p>Verilerini hiçbir üçüncü tarafa satmıyoruz. Reklam gösterimi için yukarıda anlatılan Google AdMob dışında, kişisel verini reklam amacıyla başka biriyle paylaşmıyoruz. Uygulamanın kendi sunucusu ve kullanıcı hesap sistemi yoktur.</p>
+<p>Verilerini hiçbir üçüncü tarafa satmıyoruz. Reklam gösterimi için yukarıda anlatılan Google AdMob dışında, kişisel verini reklam amacıyla başka biriyle paylaşmıyoruz. Uygulamada bir kullanıcı hesabı zorunluluğu yoktur; yalnızca isteğe bağlı forum için Apple ile giriş kullanılır.</p>
 
 <h2>Verilerini Silmek</h2>
-<p>Uygulamayı telefonundan kaldırdığında (sil), cihazında tutulan tüm veriler (araç seçimi, şarj kayıtları, fotoğraf vb.) birlikte silinir.</p>
+<p>Uygulamayı telefonundan kaldırdığında (sil), cihazında tutulan tüm veriler (araç seçimi, şarj kayıtları, fotoğraf vb.) birlikte silinir. Foruma yazdığın içerikler sunucuda tutulduğundan, onları silmek için forum Hesap ekranından “Hesabımı ve içeriklerimi sil” seçeneğini kullan.</p>
 
 <h2>İletişim</h2>
 <p>Sorularınız için: <a href="mailto:nevzatyusan@gmail.com">nevzatyusan@gmail.com</a></p>
